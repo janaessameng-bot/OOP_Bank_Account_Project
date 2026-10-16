@@ -32,7 +32,7 @@ int main() {
    string response2;
    cout<<"Do U want to deposit or withdraw money: (respond with deposit or withdraw): ";
    cin>>response2;
-   long long money;
+   double money;
    if (response2 =="deposit") {
 
       cout<<"How much you want to deposit: "<<endl;
