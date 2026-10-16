@@ -18,7 +18,7 @@ public:
     void setbalance(double balance);
     int getaccountnumber();
     string getholdername();
-    long long getbalance();
+    double getbalance();
     void depositemoney(double money);
     void withdrawmoney(double money);
 
