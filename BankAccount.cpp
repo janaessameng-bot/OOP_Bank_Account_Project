@@ -35,6 +35,6 @@ int  BankAccount:: getaccountnumber() {
 string BankAccount::getholdername() {
     return holdername;
 }
-long long BankAccount:: getbalance() {
+double BankAccount:: getbalance() {
     return balance;
 }
